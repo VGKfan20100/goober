@@ -1,0 +1,45 @@
+body {
+	background-color: yellow;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: #100000; /* Dark text color */
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	background-color: purple;
+	font-size: 32pt;
+	color: yellow;
+	padding: 5px 10px;
+	margin: 20px auto;
+}
+
+h2 {
+	text-align: left;
+	background-color: #800080;
+	color: #D8BFD8;
+}
+
+img {
+	display: block;
+	float: left;
+	margin: 0.15px 15px 0 0;
+}
+
+p {
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+}
+
+/* Corrected .shrt class */
+p.shrt {
+	display: inline-block;              /* Shrinks width to fit content */
+	background-color: lightyellow;     /* Optional: highlight */
+	width: 600px;                      /* Fixed width of container */
+	padding: 5px 10px;                 /* Optional spacing around text */
+	margin: 10px 0;                    /* Vertical spacing */
+	text-align: center;
+}
+
